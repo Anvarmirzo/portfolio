@@ -4,8 +4,10 @@ body,
 html {
   overflow-x: hidden;
   font-family: 'Decima Mono Cyr';
-  background-image: url("../img/pattern-1.png");
+  background: rgba(13, 13, 13, 0.68);
+  background-image: url("../img/bg-pat.png");
   color: #D9D9D9;
+  letter-spacing: -2px;
 }
 
 * {
@@ -37,10 +39,6 @@ a:hover {
 }
 
 /* HEADER START */
-
-.header {
-  background-image: url(../img/header-bg.png);
-}
 
 .header-menu {
   margin-bottom: 193px;
@@ -154,7 +152,6 @@ a:hover {
 /* ABOUT START */
 
 .about {
-  background-image: url(../img/about-bg.png);
   padding-bottom: 240px;
 }
 
@@ -263,7 +260,6 @@ a:hover {
 /* PROJECT START */
 
 .project {
-  background-image: url(../img/our-projects-bg.png);
   padding-bottom: 260px;
 }
 
@@ -348,10 +344,6 @@ a:hover {
 
 /* SERVICES START */
 
-.services {
-  background-image: url(../img/services-bg.png);
-}
-
 .services__container {
   padding: 0 223px;
 }
@@ -385,7 +377,7 @@ a:hover {
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  max-width: 450px;
+  max-width: 460px;
   position: relative;
   padding: 63px 0 62px 77px;
   height: -webkit-max-content;
@@ -425,6 +417,7 @@ a:hover {
 .middle__card {
   background: -o-linear-gradient(299.02deg, #3B3B3B 0%, #2B2B2B 50%);
   background: linear-gradient(150.98deg, #3B3B3B 0%, #2B2B2B 50%);
+  padding-right: 42px;
 }
 
 .middle__card-price {
@@ -490,10 +483,6 @@ a:hover {
 /* SERVICES END */
 
 /* CONTACT START */
-
-.contact {
-  background-image: url(../img/contact-us-bg.png);
-}
 
 .contact__container {
   padding: 250px 151px;
@@ -566,10 +555,6 @@ input::-webkit-inner-spin-button {
 /* CONTACT END */
 
 /* ADDRESS START */
-
-.footer {
-  background-image: url(../img/address-bg.png);
-}
 
 .footer__container {
   padding: 0 182px 100px 262px;
